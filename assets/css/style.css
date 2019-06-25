@@ -1,0 +1,41 @@
+body {
+background-image: url(../images/background2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-color: aqua;
+color:yellow;
+font-size: 18px;
+line-height: 36px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#jumbotron {
+    text-align: center;
+}
+
+h1 {
+    color: mediumturquoise;
+    font-size: 50px;
+    font-family: fantasy;
+    line-height: normal;
+}
+
+h2 {
+    color: mediumturquoise;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+#instructions-container {
+    float: left;
+    background-color: rgb(9, 110, 105);
+    width: 50%;
+}
+
+#goal-container {
+  ;
+}
+
+#games-container {
+
+}
