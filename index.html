@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector!</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Crystal Collector!</h1>
+            <h2 class="lead">Can you get the exact number?</h2>
+        </div>
+    </div>
+
+    <div id="instructions-container">
+        <div class="container">
+            <p>
+                A random number will be generated at the beginning of the game.
+            </p>
+            <p>
+                The four crystals below will have a random value assigned to them that will be hidden from you until you
+                click on it.
+            </p>
+            <p>
+                Win the game by matching your total score to the random number. If your score goes over you will lose
+                and the game will reset.
+            </p>
+            <p>
+                Each time the game starts over the values of the crystals will change.
+            </p>
+        </div>
+    </div>
+
+    <div id="goal-container">
+        <div class="container"></div>
+    </div>
+
+    <div id="games-container">
+        <div class="container">
+            <div>Wins:<span id="Wins"></span></div>
+
+            <div>Losses:<span id="Losses"></span></div>
+        </div>
+    </div>
+
+    <div id="header">
+        <div class="container">
+            <div>Your Total Score:</div>
+        </div>
+        <div id="score-container" class="container"></div>
+    </div>
+
+</body>
+
+</html>
