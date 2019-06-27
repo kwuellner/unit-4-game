@@ -10,6 +10,7 @@ $(document).ready(function () {
     var crystalNum3 = Math.floor((Math.random() * 12) + 1)
     var crystalNum4 = Math.floor((Math.random() * 12) + 1)
 
+    $('#numberToGuess').text(goalNumber);
     $('#totalWins').text(wins);
     $('#totalLosses').text(losses);
 
@@ -25,15 +26,20 @@ $(document).ready(function () {
         $('#totalScore').text(yourTotal);
     }
     console.log(goalNumber);
+    console.log(crystalNum1);
+    console.log(crystalNum2);
+    console.log(crystalNum3);
+    console.log(crystalNum4);
+    console.log((yourTotal) + 4);
 
     function win() {
-        alert("Congratulations!");
+        alert("You won! Congratulations!");
         wins++;
         $('#totalWins').text(wins);
         reset()
     }
     function lost() {
-        alert("Sorry, better luck next time!");
+        alert("Your score went over! Sorry, better luck next time!");
         losses++;
         $('#totalLosses').text(losses);
         reset()
