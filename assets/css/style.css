@@ -2,7 +2,7 @@ body {
 background-image: url(../images/background.jpg);
 background-size: cover;
 background-repeat: no-repeat;
-background-color: aqua;
+background-color: rgb(32, 2, 61);
 color:rgb(8, 130, 245);
 font-size: 18px;
 line-height: 36px;
@@ -35,6 +35,7 @@ h2 {
 }
 
 .image {
+    opacity: .7;
     display: block;
     margin: 20px 75px 0 75px;
     width: 200px;

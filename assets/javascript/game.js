@@ -4,7 +4,7 @@ $(document).ready(function () {
     var losses = 0;
     var yourTotal = 0;
 
-    var goalNumber = Math.floor((Math.random() * 120) + 19)
+    var goalNumber = Math.floor((Math.random() * 101) + 19)
     var crystalNum1 = Math.floor((Math.random() * 12) + 1)
     var crystalNum2 = Math.floor((Math.random() * 12) + 1)
     var crystalNum3 = Math.floor((Math.random() * 12) + 1)
@@ -15,7 +15,7 @@ $(document).ready(function () {
     $('#totalLosses').text(losses);
 
     function reset() {
-        goalNumber = Math.floor((Math.random() * 120) + 19);
+        goalNumber = Math.floor((Math.random() * 101) + 19);
         console.log(goalNumber);
         $('#numberToGuess').text(goalNumber);
         crystalNum1 = Math.floor((Math.random() * 12) + 1);
@@ -25,12 +25,6 @@ $(document).ready(function () {
         yourTotal = 0;
         $('#totalScore').text(yourTotal);
     }
-    console.log(goalNumber);
-    console.log(crystalNum1);
-    console.log(crystalNum2);
-    console.log(crystalNum3);
-    console.log(crystalNum4);
-    console.log((yourTotal) + 4);
 
     function win() {
         alert("You won! Congratulations!");
